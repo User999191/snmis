@@ -14,3 +14,31 @@ Tab:AddButton({
 	end    
 })
 
+Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		print("button pressed")
+	   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21.8640194, 7.05120325, 351.97879, 0.0314038135, 5.40575833e-08, 0.999506831, -3.80795839e-08, 1, -5.28878239e-08, -0.999506831, -3.63999213e-08, 0.0314038135)
+  	end    
+})
+Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		print("button pressed")
+	   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(16.3540058, 7.05120182, 404.920929, -0.19164823, -4.67164369e-08, 0.981463671, -3.17791873e-08, 1, 4.13932888e-08, -0.981463671, -2.32571669e-08, -0.19164823)
+  	end    
+   })
+
+   local Tab = Window:MakeTab({
+	Name = "Player",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "37 speed",
+	Callback = function()
+      		print("button pressed")
+	  humanoid.walkspeed = 37
+  	end    
+})
