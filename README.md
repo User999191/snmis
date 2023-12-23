@@ -47,7 +47,6 @@ Tab:AddButton({
 	Name = "37 speed",
 	Callback = function()
       		print("button pressed")
-	if humanoid then
 	  humanoid.walkspeed = 37
   	end    
 })
