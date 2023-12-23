@@ -29,6 +29,14 @@ Tab:AddButton({
   	end    
    })
 
+   Tab:AddButton({
+	Name = "Go Out Side!!!",
+	Callback = function()
+      		print("button pressed")
+	   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(95.0161209, 6.96599865, 341.283539, -0.070768714, 1.54773439e-08, 0.997492731, 3.40369191e-08, 1, -1.31014435e-08, -0.997492731, 3.30244099e-08, -0.070768714)
+  	end    
+})
+
    local Tab = Window:MakeTab({
 	Name = "Player",
 	Icon = "rbxassetid://4483345998",
