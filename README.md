@@ -43,10 +43,4 @@ Tab:AddButton({
 	PremiumOnly = false
 })
 
-Tab:AddButton({
-	Name = "37 speed",
-	Callback = function()
-      		print("button pressed")
-	  humanoid.walkspeed = 37
-  	end    
-})
+
